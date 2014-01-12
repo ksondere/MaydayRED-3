@@ -1,0 +1,43 @@
+/* CSS declarations go here */
+/*
+@font-face {
+    font-family: Swanky;
+    src: url('public/fonts/FontdinerSwanky.ttf');
+}
+*/
+@font-face {
+    font-family: FontSpa;
+    src: url('public/fonts/FontdSpaTT.ttf');
+}
+
+/*
+@font-face {
+    font-family: Rocks;
+    src: url('public/fonts/ROCKS___.ttf');
+}
+*/
+/*
+h3 {
+  font-family: 'Cherry Cream Soda';
+}
+*/
+/*
+h1 {
+  font-family: Swanky, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+*/
+h1, h2 {
+  font-family: FontSpa, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+/*
+h3 {
+  font-family: Rocks, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+*/
+
+ul#slider, ul#slider li {
+    width: 1200px;
+    height: 900px;
+    list-style: none;
+}
+
