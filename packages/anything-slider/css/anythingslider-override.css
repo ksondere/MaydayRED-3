@@ -1,0 +1,9 @@
+/* Navigation buttons + start/stop button, default state */
+.anythingSlider-default .anythingControls a {
+	/* top shadow */
+	background: #777 url(/packages/anything-slider/images/default.png) center -288px repeat-x;
+}
+
+.anythingSlider-default .arrow a {
+	background: url(/packages/anything-slider/images/default.png) no-repeat;
+}
