@@ -8,8 +8,8 @@
 	        navigationFormatter: function (i, panel) { // add thumbnails as navigation links
             //console.debug("i: " + i + " panel:" + panel);
             var id = 0;
-            if (youTubeVideos[i-1] && youTubeVideos[i-1].id)
-              id = youTubeVideos[i-1].id || 1;
+            if (YoutubeVideos[i-1] && YoutubeVideos[i-1].id)
+              id = YoutubeVideos[i-1].id || 1;
              
 	          return "<img src='http://img.youtube.com/vi/" + id  + "/2.jpg' height='45' width='60'>";
 	        }

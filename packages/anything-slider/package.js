@@ -47,4 +47,6 @@ Package.on_use(function (api) {
     ]
     
     api.add_files(viewFiles,"client");
+  
+    api.export('YoutubeVideos', 'client');
 });
