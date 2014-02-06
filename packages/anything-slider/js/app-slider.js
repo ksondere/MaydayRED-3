@@ -4,7 +4,10 @@
 	        resizeContents: true,
 	        toggleControls: true,
 	        theme: 'metallic',
-	        addWmodeToObject: 'opaque',
+          expand: true,
+            aspectRatio: '16:9',            
+	        addWmodeToObject: 'opaque'
+            /*
 	        navigationFormatter: function (i, panel) { // add thumbnails as navigation links
             //console.debug("i: " + i + " panel:" + panel);
             var id = 0;
@@ -12,7 +15,7 @@
               id = YoutubeVideos[i-1].id || 1;
              
 	          return "<img src='http://img.youtube.com/vi/" + id  + "/2.jpg' height='45' width='60'>";
-	        }
+	        } */
 	    })
 
 	    // Initialize video extension

@@ -24,10 +24,8 @@ Package.on_use(function (api) {
     api.add_files(js_path + 'jquery.easing.1.2.js', 'client');  
     api.add_files(js_path + 'swfobject.js', 'client');  
     api.add_files(js_path + 'jquery.anythingslider.fx.js', 'client');
-    api.add_files(js_path + 'jquery.anythingslider.video.js', 'client');    
-    api.add_files(js_path + 'app-slider.js', 'client');    
-  
-    
+    api.add_files(js_path + 'jquery.anythingslider.video.js', 'client'); 
+    api.add_files(js_path + 'app-slider.js', 'client');        
   
     var clientFiles=[
       "images/arrows-metallic.png",

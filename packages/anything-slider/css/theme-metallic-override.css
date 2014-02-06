@@ -2,11 +2,12 @@
 .anythingSlider-metallic .anythingControls a {
 	background: transparent url('/packages/anything-slider/images/arrows-metallic.png') -68px -40px repeat-x;
 }
-
+/*
 #slider {
 	width: 85%;
 	height: 800px;
 }
+*/
 /*
 .anythingSlider-metallic .arrow a {
 	background: url('/packages/anything-slider/images/arrows-metallic.png') no-repeat;

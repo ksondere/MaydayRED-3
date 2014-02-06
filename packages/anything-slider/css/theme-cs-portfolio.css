@@ -11,8 +11,6 @@ through which the background color is seen... so colors set will turn out darker
  *****************************/
 /* change the ID & dimensions to match your slider */
 #slider {
-	width: 700px;
-	height: 390px;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
 	overflow-y: auto;
