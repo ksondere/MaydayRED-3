@@ -1,0 +1,38 @@
+<template name="navigation">
+<!-- Mobile Only Navigation - 2 types each for (480px to 640px) and (640px to 960px) wide device screens -->
+<!--
+<header id="mobile-header"  class="clearfix hidden-desktop">
+    <div id="nav">
+      <ul>
+        <li><a class="scroll-link" href="#intro" data-soffset="0">Videos</a></li>
+        <li><a class="scroll-link" href="#second" data-soffset="0">Band</a></li>
+        <li><a class="scroll-link" href="#fifth" data-soffset="0">Store</a></li>
+        <li><a class="scroll-link" href="#seventh" data-soffset="0">Contact Us</a></li>
+      </ul>
+    </div>
+</header>
+-->
+
+<img id="nav-arrow" class="hidden-phone hidden-tablet" src="images/nav-left.png" title="Mayday RED" alt="persona"/>
+
+<ul id="main-nav" class="visible-desktop">
+    <li>
+        <a href="#intro" title="Next Section">
+            <!--<img id="logo" src="images/logo.png" title="Mayday RED" alt="persona"/>-->
+            <div class="filler" ></div>
+        </a>
+    </li>
+    <li>
+        <a id="trigger-intro" class="nav-link scroll-link" href="#intro" data-soffset="0">Videos</a>
+    </li>
+    <li>
+        <a id="trigger-second" class="nav-link scroll-link" href="#second" data-soffset="0">Band</a>
+    </li>
+    <li>
+        <a id="trigger-fifth" class="nav-link scroll-link" href="#fifth" data-soffset="0">Store</a>
+    </li>
+    <li>
+        <a id="trigger-seventh" class="nav-link scroll-link" href="#seventh" data-soffset="0">Contact Us</a>
+    </li>
+</ul>
+</template>
