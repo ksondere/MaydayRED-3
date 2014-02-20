@@ -137,6 +137,12 @@ url('fonts/foundation_social_icons/foundation-icons-social.svg#webfont') format(
     src: url('fonts/font_diner/CherryCreamSoda.ttf') format('truetype');
 }
 
+
+@font-face{
+    font-family:"Matchbook";
+    src: url('fonts/font_diner/MATCHBOOK.TTF') format('truetype');
+}
+
 .border-top{
 	padding-top: 20px;
 	border-top: solid 1px #aaa;

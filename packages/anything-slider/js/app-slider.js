@@ -5,7 +5,7 @@
 	        toggleControls: true,
 	        theme: 'metallic',
           expand: true,
-            aspectRatio: '16:9',            
+          aspectRatio: '16:9',            
 	        addWmodeToObject: 'opaque'
             /*
 	        navigationFormatter: function (i, panel) { // add thumbnails as navigation links

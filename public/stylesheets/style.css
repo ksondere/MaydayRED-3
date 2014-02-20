@@ -125,8 +125,8 @@ color: #555;
 .nav-link{
 	margin: 2px;
 	color:#fff !important;
-    font-family:"Rocket";
-    font-size:18px;
+    font-family: Matchbook;
+    font-size:30px;
 	text-decoration:none;
 	background:#8B0000;
 	padding: 4px 10px;
@@ -331,8 +331,8 @@ font-family:"Ostrich_Sans_Regular" !important;
 	
 }
 .medium-para{
-	font-size:30px;
-	line-height:41px;
+	font-size:40px;
+	line-height:51px;
 }
 .credit-txt{
 	color:#999;
@@ -349,8 +349,7 @@ font-size:12px !important;
 }
 
 .foot-logo{
-font-family:"Ostrich_Sans_Black";
-text-transform:uppercase;
+font-family: Rocket;
 font-size:36px;
 line-height:36px;
 font-weight:normal;
@@ -518,7 +517,7 @@ font-family:"Open_Sans_L";
    Page Name 2
 ----------------------------------------- */
 #work-intro{
-  font-family:Cherry_Cream;
+  font-family:Matchbook;
 }
 #work-block{
 }
@@ -565,7 +564,7 @@ font-size:32px; line-height: 44px;}
 .contact{
 	list-style:none;
 	color:#000 !important;
-  font-family: Cherry_Cream;
+  font-family: Matchbook;
 }
 .contact a{
 	color:#8B0000 !important;
@@ -604,8 +603,8 @@ font-style:normal !important;
 }
 .contact-form-label{
 	color: #000 !important;
-	font-family:Cherry_Cream;
-	font-size:26px !important;
+	font-family: Matchbook;
+	font-size:40px !important;
 }
 .contact-icons {
 	margin-top: 30px;
@@ -625,10 +624,12 @@ font-style:normal !important;
 	font-size:14px !important;
 }
 .contact-btn{
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
+  font-family: Matchbook;
+  font-size: 40px;
 }
 .text-field{
-	font-family:Cherry_Cream;
+	font-family: Matchbook;
 	font-size:16px !important;
 	color:#999 !important;
 }
@@ -743,13 +744,13 @@ color: #fff !important;
     background-color: #8B0000 !important;
     border: none !important;
     color: #FFF !important;
-    padding: 20px 34px !important;
+    padding: 5px 10px 2px 10px!important;
 }
 .button.secondary:hover {
     background-color: #FFF !important;
     border: none !important;
     color: #8B0000 !important;
-    padding: 20px 34px !important;
+    padding: 5px 10px 2px 10px!important;
     cursor: pointer;
 }
 
