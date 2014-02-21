@@ -1,12 +1,11 @@
 Template.contactUs.events = {
-  'keydown input#submit' : function (event) {
-    if (event.which == 13) { // 13 is the enter key event
-      var name = document.getElementById('name');
-      var email = document.getElementById('email');
-      var msg = document.getElementById('msg');
-
-      Meteor.call('sendEmail', email, name, msg);
-      Meteor.call('writeDb', email, name, msg);
-    }
+  'submit' : function (eventl, template) {
+    var name = document.getElementById('name');
+    var email = document.getElementById('email');
+    var msg = document.getElementById('msg');
+    
+    console.log('name: ' + name.value + ' email: ' + email.value + ' msg: ' + msg.value);
+    Meteor.call('sendEmail', email.value, name.value, msg.value);
+    event.preventDefault();
   }
 }

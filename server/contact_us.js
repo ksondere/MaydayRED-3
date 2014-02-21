@@ -2,6 +2,8 @@ Meteor.methods({
   sendEmail: function (from, name, text){
     check([from, name, text], [String]);
     
+    console.log('before send email');
+    
     this.unblock();
     Email.send({
       to: 'ksondere@gmail.com',
@@ -9,12 +11,7 @@ Meteor.methods({
       subject: name,
       text: text
     });
-  },
-  writeDb: function (from, name, text){
-    Emails.insert({ 
-      from: from,
-      name: name,
-      text: text
-    })
+    
+    console.log('email sent from: ' + name + 'with email address: ' + from);
   }
 })
