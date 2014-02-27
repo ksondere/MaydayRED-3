@@ -1,0 +1,10 @@
+/* Band page specific CSS */
+.about-band {
+  background: rgba(240,230,220, .80);
+  color: white;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 20px;
+  font-family: Matchbook;
+}

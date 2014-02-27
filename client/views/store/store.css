@@ -1,0 +1,23 @@
+h1, h2 {
+  font-family: "Sparkly", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  margin: 0px, auto;
+}
+
+.store-link {
+  font-family: Sparkly;
+}
+
+.store-tag {
+  font-family: Rocket;
+  font-size: 32px;
+  margin-left: 10px;
+  color: #8B0000;
+}
+
+#address-block p {
+  color:#FFF;
+}
+
+#address-block li {
+   color:#FFF;
+}
