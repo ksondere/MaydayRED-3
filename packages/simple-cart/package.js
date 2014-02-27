@@ -10,7 +10,5 @@ Package.on_use(function (api) {
       "simpleCart.js",
     ];
   
-    api.add_files(clientFiles,"client");
-  
-    //api.export('YoutubeVideos', 'client');
+    api.add_files(clientFiles,"client");  
 });

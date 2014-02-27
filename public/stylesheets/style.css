@@ -627,6 +627,7 @@ font-style:normal !important;
 	/*text-transform:uppercase;*/
   font-family: Matchbook;
   font-size: 40px;
+  border-radius: 5px;
 }
 .text-field{
 	font-family: Matchbook;
