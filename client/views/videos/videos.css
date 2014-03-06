@@ -1,5 +1,5 @@
-#videos{
-    background:url(../images/bg/videos.jpg) 50% -75px no-repeat fixed;
+#videos {
+    background: url(../images/bg/videos.jpg) 50% -75px no-repeat fixed;
     color: white;
     min-height: 860px;
     margin: 0 auto;
@@ -7,9 +7,9 @@
 }
 
 #wrapper {
-  height:745px;
-  margin-top:40px;
-  margin-bottom: 40px;
+    height: 745px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /* Anything-slider CSS */
@@ -40,18 +40,18 @@ div.anythingControls {
     margin-top: 35px;
 }
 
-#welcome{
+#welcome {
 }
 
-#welcome h1{
-    font-family:Rocket;
-    margin-top:50px;
+#welcome h1 {
+    font-family: Rocket;
+    margin-top: 50px;
     color: #8B0000;
 }
 
-#welcome p{
-    font-family:"Open_Sans_R";
-    font-size:16px;
-    line-height:21px;
-    font-weight:normal;
+#welcome p {
+    font-family: "Open_Sans_R";
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: normal;
 }

@@ -1,44 +1,44 @@
-#nav-arrow{
-    display:none;
-    position:fixed;
-    top:0px;
-    right:0px;
-    z-index:99999;
+#nav-arrow {
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 99999;
 }
 
-#main-nav{
-    width:200px;
+#main-nav {
+    width: 200px;
     list-style: none;
     position: fixed;
     right: 0px;
-    height:100%;
-    margin-top:0px;
-    padding-right:0px;
-    padding-left:20px;
-    z-index:9999;
+    height: 100%;
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 20px;
+    z-index: 9999;
 }
 
-#main-nav li{
+#main-nav li {
     margin: 0px;
-    text-align:right;
-    margin-top:10px;
-    margin-bottom:10px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
     line-height: 28px;
 }
 
-.nav-link{
+.nav-link {
     margin: 2px;
-    color:#fff !important;
+    color: #fff !important;
     font-family: Matchbook;
-    font-size:30px;
-    text-decoration:none;
-    background:#8B0000;
+    font-size: 30px;
+    text-decoration: none;
+    background: #8B0000;
     padding: 4px 10px;
-    border-bottom:solid 4px #c0c0c0;
+    border-bottom: solid 4px #c0c0c0;
 }
 
-.nav-link:hover, .nav-link:focus{
-    text-decoration:none !important;
+.nav-link:hover, .nav-link:focus {
+    text-decoration: none !important;
 }
 
 /* don't see these elements anymore */

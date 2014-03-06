@@ -1,12 +1,12 @@
 /* Navigation buttons + start/stop button, default state */
 .anythingSlider-metallic .anythingControls a {
-	background: transparent url('/packages/anything-slider/images/arrows-metallic.png') -68px -40px repeat-x;
+    background: transparent url('/packages/anything-slider/images/arrows-metallic.png') -68px -40px repeat-x;
 }
 
 /* slider window - top & bottom borders, active state */
 .anythingSlider-metallic.activeSlider .anythingWindow {
-	border-color: #C0C0C0;
-  border: 30px;
+    border-color: #C0C0C0;
+    border: 30px;
 }
 
 /*

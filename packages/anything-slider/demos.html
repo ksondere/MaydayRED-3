@@ -2,50 +2,50 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
 
-	<title>AnythingSlider FX Demos</title>
-	<link rel="shortcut icon" href="demos/images/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="demos/images/apple-touch-icon.png">
+    <title>AnythingSlider FX Demos</title>
+    <link rel="shortcut icon" href="demos/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="demos/images/apple-touch-icon.png">
 
-	<!-- Syntax highlighting -->
-	<link rel="stylesheet" href="demos/prettify/prettify.css" media="screen">
-	<script src="demos/prettify/prettify.js"></script>
+    <!-- Syntax highlighting -->
+    <link rel="stylesheet" href="demos/prettify/prettify.css" media="screen">
+    <script src="demos/prettify/prettify.js"></script>
 
-	<!-- jQuery (required) & jQuery UI (for this demo only) -->
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+    <!-- jQuery (required) & jQuery UI (for this demo only) -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
 
-	<!-- Anything Slider optional plugins -->
-	<script src="js/jquery.easing.1.2.js"></script>
+    <!-- Anything Slider optional plugins -->
+    <script src="js/jquery.easing.1.2.js"></script>
 
-	<!-- Anything Slider -->
-	<link rel="stylesheet" href="css/anythingslider.css">
-	<script src="js/jquery.anythingslider.js"></script>
+    <!-- Anything Slider -->
+    <link rel="stylesheet" href="css/anythingslider.css">
+    <script src="js/jquery.anythingslider.js"></script>
 
-	<!-- Ideally, add the stylesheet(s) you are going to use here,
-	otherwise they are loaded and appended to the <head> automatically and will over-ride the IE stylesheet below -->
-	<link rel="stylesheet" href="css/theme-metallic.css" media="screen">
+    <!-- Ideally, add the stylesheet(s) you are going to use here,
+    otherwise they are loaded and appended to the <head> automatically and will over-ride the IE stylesheet below -->
+    <link rel="stylesheet" href="css/theme-metallic.css" media="screen">
 
-	<!-- AnythingSlider optional FX extension -->
-	<script src="js/jquery.anythingslider.fx.js"></script>
+    <!-- AnythingSlider optional FX extension -->
+    <script src="js/jquery.anythingslider.fx.js"></script>
 
-	<!-- Demos page only -->
-	<link rel="stylesheet" href="demos/css/page.css">
-	<link rel="stylesheet" href="demos/colorbox/colorbox.css">
-	<script src="demos/js/demo.js"></script>
-	<script src="demos/colorbox/jquery.colorbox-min.js"></script>
+    <!-- Demos page only -->
+    <link rel="stylesheet" href="demos/css/page.css">
+    <link rel="stylesheet" href="demos/colorbox/colorbox.css">
+    <script src="demos/js/demo.js"></script>
+    <script src="demos/colorbox/jquery.colorbox-min.js"></script>
 
 
 </head>
 
 <body>
 
- <div id="demo2">
+<div id="demo2">
 
-  <div id="nav">
+<div id="nav">
     <a href="index.html">Main Demo</a>
     <a href="simple.html">Simple Demo</a>
     <a href="expand.html">Expand Demo</a>
@@ -56,52 +56,73 @@
     <a class="git" href="https://github.com/CSS-Tricks/AnythingSlider/wiki">Documentation</a>
     <a class="git" href="https://github.com/CSS-Tricks/AnythingSlider/zipball/master">Download</a>
     <a class="issue" href="https://github.com/CSS-Tricks/AnythingSlider/issues">Issues</a>
-  </div>
+</div>
 
-  <h1>AnythingSlider FX Demos</h1>
+<h1>AnythingSlider FX Demos</h1>
 
-  <h2 class="title">Demo 1: Thumbnails &amp; A Lightbox</h2>
+<h2 class="title">Demo 1: Thumbnails &amp; A Lightbox</h2>
 
-  <!-- AnythingSlider #1 -->
-  <ul id="slider1">
-   <li><img src="demos/images/slide-civil-1.jpg" alt="" title="In Soviet Russia, concrete pours you!"></li>
-   <li><img src="demos/images/slide-env-1.jpg" alt="" title="How many supervisors are there? Wrong! 5, who is taking the picture?"></li>
-   <li><img src="demos/images/slide-civil-2.jpg" alt="" title="Alas, the pylon would never make it to the hydrant, her true love."></li>
-   <li><img src="demos/images/slide-env-2.jpg" alt="" title="Take a left at the traffic circle."></li>
-  </ul>
-  <!-- END AnythingSlider #1 -->
-  <br />
+<!-- AnythingSlider #1 -->
+<ul id="slider1">
+    <li><img src="demos/images/slide-civil-1.jpg" alt="" title="In Soviet Russia, concrete pours you!"></li>
+    <li><img src="demos/images/slide-env-1.jpg" alt=""
+             title="How many supervisors are there? Wrong! 5, who is taking the picture?"></li>
+    <li><img src="demos/images/slide-civil-2.jpg" alt=""
+             title="Alas, the pylon would never make it to the hydrant, her true love."></li>
+    <li><img src="demos/images/slide-env-2.jpg" alt="" title="Take a left at the traffic circle."></li>
+</ul>
+<!-- END AnythingSlider #1 -->
+<br/>
 
-  <div class="accordion">
-   <h3><a href="#">Demo 1 Notes</a></h3>
-   <div>
-    <ul>
-     <li>Hover over the demo 1 slider to reveal the thumbnail navigation links - This sliding feature is part of the core AnythingSlider plugin (<code>toggleControls</code> is set to true).</li>
-     <li>Thumbnail images<br /><br />
-      <ul>
-       <li>For this demo, the thumbnail images are premade; but with some server side scripting and modification to the <code>navigationFormatter</code> code, you should be able to create and link to your own thumbnail images.</li>
-       <li>CSS is required to override the metallic theme CSS for thumbnail images to be visible (resize and remove negative text indentation), or you can make a new theme.</li>
-       <li>Add images using the <code>navigationFormatter</code> option as follows:<br /><br />
+<div class="accordion">
+    <h3><a href="#">Demo 1 Notes</a></h3>
+
+    <div>
+        <ul>
+            <li>Hover over the demo 1 slider to reveal the thumbnail navigation links - This sliding feature is part of
+                the core AnythingSlider plugin (<code>toggleControls</code> is set to true).
+            </li>
+            <li>Thumbnail images<br/><br/>
+                <ul>
+                    <li>For this demo, the thumbnail images are premade; but with some server side scripting and
+                        modification to the <code>navigationFormatter</code> code, you should be able to create and link
+                        to your own thumbnail images.
+                    </li>
+                    <li>CSS is required to override the metallic theme CSS for thumbnail images to be visible (resize
+                        and remove negative text indentation), or you can make a new theme.
+                    </li>
+                    <li>Add images using the <code>navigationFormatter</code> option as follows:<br/><br/>
         <pre class="prettyprint lang-javascript"> navigationFormatter : function(i, panel){
   return '&lt;img src="demos/images/th-slide-' + ['civil-1', 'env-1', 'civil-2', 'env-2'][i-1] + '.jpg"&gt;';
  }</pre>
-       </li>
-      </ul>
-     </li>
-     <li>Lightbox Popup (<a href="http://colorpowered.com/colorbox/">Colorbox</a> plugin)<br /><br />
-      <ul>
-       <li>Click on the current slider image to open a light box. Press escape or click on the (X) in the lower right corner to close it.</li>
-       <li>Additional CSS is required to modify the Colorbox plugin. The CSS expands the image to completely fill the inside the colorbox popup. Adjust as desired to keep the image proportional.</li>
-       <li>The script attaches a colorbox popup to all images inside the slider. Add a class to the images to modify this behaviour.</li>
-       <li>The colorbox popup will contain all the current slider images. In the script the name "group" is added to all images in the "rel" attribute. This can be done in the HTML to target only the images to be shown in the colorbox - then remove the <code>.attr('rel','group')</code> in the script.</li>
-      </ul>
-     </li>
-     <li>The AnythingSlider FX extension is not required to add any of the above functionality.</li>
-    </ul>
-   </div>
+                    </li>
+                </ul>
+            </li>
+            <li>Lightbox Popup (<a href="http://colorpowered.com/colorbox/">Colorbox</a> plugin)<br/><br/>
+                <ul>
+                    <li>Click on the current slider image to open a light box. Press escape or click on the (X) in the
+                        lower right corner to close it.
+                    </li>
+                    <li>Additional CSS is required to modify the Colorbox plugin. The CSS expands the image to
+                        completely fill the inside the colorbox popup. Adjust as desired to keep the image proportional.
+                    </li>
+                    <li>The script attaches a colorbox popup to all images inside the slider. Add a class to the images
+                        to modify this behaviour.
+                    </li>
+                    <li>The colorbox popup will contain all the current slider images. In the script the name "group" is
+                        added to all images in the "rel" attribute. This can be done in the HTML to target only the
+                        images to be shown in the colorbox - then remove the <code>.attr('rel','group')</code> in the
+                        script.
+                    </li>
+                </ul>
+            </li>
+            <li>The AnythingSlider FX extension is not required to add any of the above functionality.</li>
+        </ul>
+    </div>
 
-   <h3><a href="#">Header</a></h3>
-   <div>
+    <h3><a href="#">Header</a></h3>
+
+    <div>
     <pre class="prettyprint lang-html"> &lt;!-- jQuery --&gt;
  &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js&quot;&gt;&lt;/script&gt;
 
@@ -115,10 +136,11 @@
  &lt;!-- ColorBox --&gt;
  &lt;link href=&quot;demos/colorbox/colorbox.css&quot; rel=&quot;stylesheet&quot;&gt;
  &lt;script src=&quot;demos/colorbox/jquery.colorbox-min.js&quot;&gt;&lt;/script&gt;</pre>
-   </div>
+    </div>
 
-   <h3><a href="#">CSS &amp; HTML</a></h3>
-   <div>
+    <h3><a href="#">CSS &amp; HTML</a></h3>
+
+    <div>
     <pre class="prettyprint lang-css"> /* New in version 1.7+ */
  #slider1 {
   width: 400px;
@@ -153,17 +175,18 @@
  .anythingSlider-metallic .start-stop {
   margin-top: 15px;
  }</pre>
-    <br>
+        <br>
 <pre class="prettyprint lang-html">&lt;ul id=&quot;slider1&quot;&gt;
   &lt;li&gt;&lt;img src=&quot;demos/images/slide-civil-1.jpg&quot;&gt;&lt;/li&gt;
   &lt;li&gt;&lt;img src=&quot;demos/images/slide-env-1.jpg&quot;&gt;&lt;/li&gt;
   &lt;li&gt;&lt;img src=&quot;demos/images/slide-civil-2.jpg&quot;&gt;&lt;/li&gt;
   &lt;li&gt;&lt;img src=&quot;demos/images/slide-env-2.jpg&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;</pre>
-   </div>
+    </div>
 
-   <h3><a href="#">Script</a></h3>
-   <div><pre class="prettyprint lang-javascript">$(function(){
+    <h3><a href="#">Script</a></h3>
+
+    <div><pre class="prettyprint lang-javascript">$(function(){
  $('#slider1')
   .anythingSlider({
    toggleControls : true,
@@ -185,103 +208,143 @@
      rel: 'group'
    });
 });</pre>
-   </div>
-  </div>
+    </div>
+</div>
 
-  <br><br>
+<br><br>
 
-  <h2 class="title">Demo 2: FX Extension Panel Effects</h2>
+<h2 class="title">Demo 2: FX Extension Panel Effects</h2>
 
-   <!-- AnythingSlider #2 -->
-   <ul id="slider2">
+<!-- AnythingSlider #2 -->
+<ul id="slider2">
     <li class="panel1">
-     <div>
-      <div class="textSlide">
-       <img src="demos/images/251356.jpg" alt="tomato sandwich" style="float: right; margin: 0 0 2px 10px;" />
-       <h3>Queenie's Killer Tomato Bagel Sandwich</h3>
-       <h4>Ingredients</h4>
-       <ul>
-        <li>1 bagel, split and toasted</li>
-        <li>2 tablespoons cream cheese</li>
-        <li>1 roma (plum) tomatoes, thinly sliced</li>
-        <li>salt and pepper to taste</li>
-        <li>4 leaves fresh basil</li>
-       </ul>
-      </div>
-     </div>
+        <div>
+            <div class="textSlide">
+                <img src="demos/images/251356.jpg" alt="tomato sandwich" style="float: right; margin: 0 0 2px 10px;"/>
+
+                <h3>Queenie's Killer Tomato Bagel Sandwich</h3>
+                <h4>Ingredients</h4>
+                <ul>
+                    <li>1 bagel, split and toasted</li>
+                    <li>2 tablespoons cream cheese</li>
+                    <li>1 roma (plum) tomatoes, thinly sliced</li>
+                    <li>salt and pepper to taste</li>
+                    <li>4 leaves fresh basil</li>
+                </ul>
+            </div>
+        </div>
     </li>
     <li class="panel2">
-     <div class="quoteSlide">
-      <blockquote>In awe I watched the waxing moon ride across the zenith of the heavens like an ambered chariot towards the ebon void of infinite space wherein the tethered belts of Jupiter and Mars hang forever festooned in their orbital majesty. And as I looked at all this I thought... I must put a roof on this lavatory.<p>~ Les Dawson</p></blockquote>
-     </div>
+        <div class="quoteSlide">
+            <blockquote>In awe I watched the waxing moon ride across the zenith of the heavens like an ambered chariot
+                towards the ebon void of infinite space wherein the tethered belts of Jupiter and Mars hang forever
+                festooned in their orbital majesty. And as I looked at all this I thought... I must put a roof on this
+                lavatory.<p>~ Les Dawson</p></blockquote>
+        </div>
     </li>
     <li class="panel3">
-     <img class="expand" src="demos/images/slide-tele-1.jpg" alt="" />
+        <img class="expand" src="demos/images/slide-tele-1.jpg" alt=""/>
     </li>
     <li class="panel4" id="quote2">
-     <div class="quoteSlide">
-      <blockquote>Life is conversational. Web design should be the same way. On the web, you&#8217;re talking to someone you&#8217;ve probably never met – so it&#8217;s important to be clear and precise. Thus, well structured navigation and content organization goes hand in hand with having a good conversation.</blockquote>
-      <p> - <a id='perma' href='http://quotesondesign.com/chikezie-ejiasi/'>Chikezie Ejiasi</a></p>
-     </div>
+        <div class="quoteSlide">
+            <blockquote>Life is conversational. Web design should be the same way. On the web, you&#8217;re talking to
+                someone you&#8217;ve probably never met – so it&#8217;s important to be clear and precise. Thus, well
+                structured navigation and content organization goes hand in hand with having a good conversation.
+            </blockquote>
+            <p> - <a id='perma' href='http://quotesondesign.com/chikezie-ejiasi/'>Chikezie Ejiasi</a></p>
+        </div>
     </li>
     <li class="panel5">
-     <img class="fade" src="demos/images/slide-tele-2.jpg" alt="" />
+        <img class="fade" src="demos/images/slide-tele-2.jpg" alt=""/>
     </li>
-   </ul>
-   <!-- END AnythingSlider #2 -->
+</ul>
+<!-- END AnythingSlider #2 -->
 
-  <br>
+<br>
 
-  <div class="accordion">
+<div class="accordion">
 
-   <h3><a href="#">Demo 2 Notes</a></h3>
-   <div>
+<h3><a href="#">Demo 2 Notes</a></h3>
+
+<div>
     <ul>
-     <li>The AnythingSlider FX extension is required to add this functionality.</li>
-     <li>No additional CSS is required, unless it is used for a specific element (see the captions section).</li>
-     <li>Effects Methods:<br><br>
-      <ul>
-       <li>The effects are set up so that the slider element on each panel is in its default (final) position in the "inFx" definition (element positions to zero, opacity to 1, etc) and the "outFX" definitions are set the other position the element is in to achieve the animation.</li>
-       <li>The script binds to the "slide_init" (for "outFx" animation) and "slide_complete" (for "inFx" animation) anythingSlider events.</li>
-       <li>The base effects are predefined shortcut methods. I have included the custom effect equivalents to these base effects in the script examples.</li>
-      </ul>
-     </li>
-     <li>Base effects:<br><br>
-      <ul>
-       <li>Base effects are standard effects: <code>top</code>, <code>bottom</code>, <code>left</code>, <code>right</code>, <code>fade</code>, <code>expand</code>, <code>listLR</code>, <code>listRL</code>, <code>caption-Top</code>, <code>caption-Right</code>, <code>caption-Bottom</code>, <code>caption-Left</code>.</li>
-       <li>Use the base effects as follows:<br><br>
+        <li>The AnythingSlider FX extension is required to add this functionality.</li>
+        <li>No additional CSS is required, unless it is used for a specific element (see the captions section).</li>
+        <li>Effects Methods:<br><br>
+            <ul>
+                <li>The effects are set up so that the slider element on each panel is in its default (final) position
+                    in the "inFx" definition (element positions to zero, opacity to 1, etc) and the "outFX" definitions
+                    are set the other position the element is in to achieve the animation.
+                </li>
+                <li>The script binds to the "slide_init" (for "outFx" animation) and "slide_complete" (for "inFx"
+                    animation) anythingSlider events.
+                </li>
+                <li>The base effects are predefined shortcut methods. I have included the custom effect equivalents to
+                    these base effects in the script examples.
+                </li>
+            </ul>
+        </li>
+        <li>Base effects:<br><br>
+            <ul>
+                <li>Base effects are standard effects: <code>top</code>, <code>bottom</code>, <code>left</code>, <code>right</code>,
+                    <code>fade</code>, <code>expand</code>, <code>listLR</code>, <code>listRL</code>,
+                    <code>caption-Top</code>, <code>caption-Right</code>, <code>caption-Bottom</code>, <code>caption-Left</code>.
+                </li>
+                <li>Use the base effects as follows:<br><br>
         <pre class="prettyprint lang-javascript"> $('#slider2').anythingSliderFx({
   '.selector1' : [ 'effect(s)', 'size', 'time', 'easing' ],
   '.selector2' : [ 'effect(s)', 'size', 'time', 'easing' ]
  });</pre>
-        'size', 'time' and 'easing' are optional, but they must remain in that order. So if you want to add an effect time, you must also set a size - <code>[ 'effect(s)', 'size', 'time' ]</code>. To add an easing, all parameters must be included.</li>
-       <li>Defaults: If 'size', 'time' or 'easing' is not defined, it will be set to its default value:<br><br>
-        <ul>
-         <li>size         : based on initial slider height and width</li>
-         <li>'inFx' time  : 400 (ms)</li>
-         <li>'outFx' time : 350 (ms)</li>
-         <li>easing       : 'swing'</li>
-        </ul>
-       </li>
-       <li>How base effects are setup:<br><br>
-        <ul>
-         <li><code>top</code>, <code>bottom</code>, <code>left</code>, <code>right</code>: Default 'inFx' position is zero, 'outFx' position is based on the initial slider height and width.</li>
-         <li><code>fade</code>: Default 'inFx' has an opacity set to one, 'outFx' opacity is zero.</li>
-         <li><code>expand</code>: Default 'inFx' sets the width to 100%, left and right positions to 0%; the 'outFx' width is set to 10%, left and right set to 50% to somewhat center the image. When changing this size option, use percentage values, but anything more than 20% the image position will noticeably be not centered.</li>
-         <li><code>listLR</code>: Default 'inFx' left position is zero; 'outFx' position will make ':odd' elements move (L)eft and ':even' elements move (R)ight the width of the slider.</li>
-         <li><code>listRL</code>: Default 'inFx' left position is zero; 'outFx' position will make ':odd' elements move (R)ight and ':even' elements move (L)eft the width of the slider.</li>
-         <li><code>caption-{direction}</code>: This effect is opposite of the others. The default 'inFx' positions the element so it is in view while the 'outFx' positions the element out of view. See demo 3 for more details.</li>
-        </ul>
-       </li>
-       <li>Combine any of these standard effects as desired (e.g. "top fade"); but of course, using 'top bottom' will not work as you expect (unless you wanted to blow up your computer ;) LOL).</li>
-      </ul>
-     </li>
-     <li>Custom effects:<br><br>
-      <ul>
-       <li>Custom effects allow you to use any of the standard jQuery animation parameters (e.g. top, left, margin, padding, width, height, etc). See the examples below.</li>
-       <li>Custom effects can be mixed in with base effects as desired.</li>
-       <li>When using custom effects it is important that each element with an 'inFx' method has a matching 'outFx' method, or those elements will be abnormally positioned and/or disappear from view.</li>
-       <li>Standard setup for custom effects is as follows (there is no specific order required):<br><br>
+                    'size', 'time' and 'easing' are optional, but they must remain in that order. So if you want to add
+                    an effect time, you must also set a size - <code>[ 'effect(s)', 'size', 'time' ]</code>. To add an
+                    easing, all parameters must be included.
+                </li>
+                <li>Defaults: If 'size', 'time' or 'easing' is not defined, it will be set to its default value:<br><br>
+                    <ul>
+                        <li>size : based on initial slider height and width</li>
+                        <li>'inFx' time : 400 (ms)</li>
+                        <li>'outFx' time : 350 (ms)</li>
+                        <li>easing : 'swing'</li>
+                    </ul>
+                </li>
+                <li>How base effects are setup:<br><br>
+                    <ul>
+                        <li><code>top</code>, <code>bottom</code>, <code>left</code>, <code>right</code>: Default 'inFx'
+                            position is zero, 'outFx' position is based on the initial slider height and width.
+                        </li>
+                        <li><code>fade</code>: Default 'inFx' has an opacity set to one, 'outFx' opacity is zero.</li>
+                        <li><code>expand</code>: Default 'inFx' sets the width to 100%, left and right positions to 0%;
+                            the 'outFx' width is set to 10%, left and right set to 50% to somewhat center the image.
+                            When changing this size option, use percentage values, but anything more than 20% the image
+                            position will noticeably be not centered.
+                        </li>
+                        <li><code>listLR</code>: Default 'inFx' left position is zero; 'outFx' position will make ':odd'
+                            elements move (L)eft and ':even' elements move (R)ight the width of the slider.
+                        </li>
+                        <li><code>listRL</code>: Default 'inFx' left position is zero; 'outFx' position will make ':odd'
+                            elements move (R)ight and ':even' elements move (L)eft the width of the slider.
+                        </li>
+                        <li><code>caption-{direction}</code>: This effect is opposite of the others. The default 'inFx'
+                            positions the element so it is in view while the 'outFx' positions the element out of view.
+                            See demo 3 for more details.
+                        </li>
+                    </ul>
+                </li>
+                <li>Combine any of these standard effects as desired (e.g. "top fade"); but of course, using 'top
+                    bottom' will not work as you expect (unless you wanted to blow up your computer ;) LOL).
+                </li>
+            </ul>
+        </li>
+        <li>Custom effects:<br><br>
+            <ul>
+                <li>Custom effects allow you to use any of the standard jQuery animation parameters (e.g. top, left,
+                    margin, padding, width, height, etc). See the examples below.
+                </li>
+                <li>Custom effects can be mixed in with base effects as desired.</li>
+                <li>When using custom effects it is important that each element with an 'inFx' method has a matching
+                    'outFx' method, or those elements will be abnormally positioned and/or disappear from view.
+                </li>
+                <li>Standard setup for custom effects is as follows (there is no specific order required):<br><br>
         <pre class="prettyprint lang-javascript"> $('#slider1').anythingSliderFx({
   inFx : {
    '.selector1' : { top : 0, duration: 400, easing : 'easeOutBounce' },
@@ -292,21 +355,24 @@
   outFx : {
    '.selector1' : { top  : '-100px', duration: 350 },
    '.selector2' : { left : '-200px' }
-  }</pre></li>
-       <li>Defaults: if 'time' or 'easing' is not defined in the custom effects code, it will be set to its default value:<br><br>
-        <ul>
-         <li>'inFx' time  : 400 (ms)</li>
-         <li>'outFx' time : 350 (ms)</li>
-         <li>easing       : 'swing'</li>
-        </ul>
-       </li>
-      </ul>
-     </li>
+  }</pre>
+                </li>
+                <li>Defaults: if 'time' or 'easing' is not defined in the custom effects code, it will be set to its
+                    default value:<br><br>
+                    <ul>
+                        <li>'inFx' time : 400 (ms)</li>
+                        <li>'outFx' time : 350 (ms)</li>
+                        <li>easing : 'swing'</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
     </ul>
-   </div>
+</div>
 
-   <h3><a href="#">Header</a></h3>
-   <div>
+<h3><a href="#">Header</a></h3>
+
+<div>
     <pre class="prettyprint lang-html">&lt;!-- jQuery --&gt;
  &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js&quot;&gt;&lt;/script&gt;
 
@@ -319,16 +385,18 @@
 
  &lt;!-- Anything Slider optional FX extension --&gt;
  &lt;script src=&quot;js/jquery.anythingslider.fx.min.js&quot;&gt;&lt;/script&gt;</pre>
-   </div>
+</div>
 
-   <h3><a href="#">CSS &amp; HTML</a></h3>
-    <div><pre class="prettyprint lang-css">/* New in version 1.7+ */
+<h3><a href="#">CSS &amp; HTML</a></h3>
+
+<div><pre class="prettyprint lang-css">/* New in version 1.7+ */
  #slider2 {
   width: 600px;
   height: 350px;
   list-style: none;
  }</pre>
-  There is no change from the standard HTML setup, unless you want to add more specific classes so you can target them with effects.<br><br>
+    There is no change from the standard HTML setup, unless you want to add more specific classes so you can target them
+    with effects.<br><br>
     <pre class="prettyprint lang-html">&lt;ul id=&quot;slider2&quot;&gt;
   &lt;li class=&quot;panel1&quot;&gt;
    &lt;div class=&quot;textSlide&quot;&gt;
@@ -373,10 +441,11 @@
    &lt;img class=&quot;fade&quot; src=&quot;demos/images/slide-tele-2.jpg&quot; alt=&quot;&quot;&gt;
   &lt;/li&gt;
  &lt;/ul&gt;</pre>
-   </div>
+</div>
 
-   <h3><a href="#">Script - FX addon, using base FX</a></h3>
-   <div><pre class="prettyprint lang-javascript">$(function(){
+<h3><a href="#">Script - FX addon, using base FX</a></h3>
+
+<div><pre class="prettyprint lang-javascript">$(function(){
  $('#slider2') // Demo 2 code, using FX base effects
   .anythingSlider({
    resizeContents      : false,
@@ -396,11 +465,12 @@
     '.textSlide li'         : [ 'listLR' ]
   });
 });</pre>
-   * Note: Each definition should end with a comma except for the last - see examples above.
-   </div>
+    * Note: Each definition should end with a comma except for the last - see examples above.
+</div>
 
-   <h3><a href="#">Script - FX addon, using custom FX</a></h3>
-   <div><pre class="prettyprint lang-javascript">$(function(){
+<h3><a href="#">Script - FX addon, using custom FX</a></h3>
+
+<div><pre class="prettyprint lang-javascript">$(function(){
  $('#slider2') // Demo 2 code, using FX full control
   .anythingSlider({
    resizeContents      : false,
@@ -434,74 +504,99 @@
    }
   });
 });</pre>
-   * Note: Each definition should end with a comma except for the last - see examples above.
-   </div>
-  </div>
+    * Note: Each definition should end with a comma except for the last - see examples above.
+</div>
+</div>
 
-  <br><br>
-  <h2 class="title">Demo 3: Sliding Captions</h2>
+<br><br>
 
-  <!-- AnythingSlider #3 -->
-  <ul id="slider3">
-   <li class="panel1">
-    <!-- Note this caption is before the image, all others it is after -->
-    <div class="caption-top">In Soviet Russia, concrete pours you!</div>
-    <img src="demos/images/slide-civil-1.jpg" alt="" />
-   </li>
-   <li class="panel2">
-    <img src="demos/images/slide-env-1.jpg" alt="" />
-    <div class="caption-right">How many supervisors are there? Wrong! 5, who is taking the picture?</div>
-   </li>
-   <li class="panel3">
-    <img src="demos/images/slide-civil-2.jpg" alt="" />
-    <div class="caption-bottom">Alas, the pylon would never make it to the hydrant, her true love.</div>
-   </li>
-   <li class="panel4">
-    <img src="demos/images/slide-env-2.jpg" alt="" />
-    <div class="caption-left">Take a left at the traffic circle.</div>
-   </li>
-  </ul>
-  <!-- END AnythingSlider #3 -->
+<h2 class="title">Demo 3: Sliding Captions</h2>
 
-  <br>
+<!-- AnythingSlider #3 -->
+<ul id="slider3">
+    <li class="panel1">
+        <!-- Note this caption is before the image, all others it is after -->
+        <div class="caption-top">In Soviet Russia, concrete pours you!</div>
+        <img src="demos/images/slide-civil-1.jpg" alt=""/>
+    </li>
+    <li class="panel2">
+        <img src="demos/images/slide-env-1.jpg" alt=""/>
 
-  <div class="accordion">
+        <div class="caption-right">How many supervisors are there? Wrong! 5, who is taking the picture?</div>
+    </li>
+    <li class="panel3">
+        <img src="demos/images/slide-civil-2.jpg" alt=""/>
 
-   <h3><a href="#">Demo 3 Notes</a></h3>
-   <div>
+        <div class="caption-bottom">Alas, the pylon would never make it to the hydrant, her true love.</div>
+    </li>
+    <li class="panel4">
+        <img src="demos/images/slide-env-2.jpg" alt=""/>
+
+        <div class="caption-left">Take a left at the traffic circle.</div>
+    </li>
+</ul>
+<!-- END AnythingSlider #3 -->
+
+<br>
+
+<div class="accordion">
+
+<h3><a href="#">Demo 3 Notes</a></h3>
+
+<div>
     <ul>
-     <li>CSS<br><br>
-      <ul>
-       <li>The image needs to be set to 100% height and width because AnythingSlider will only automatically expand solitary objects; but here we have a caption!</li>
-       <li>Note the caption widths &amp; heights include the padding, so for example the top &amp; bottom caption height is set to 30px instead of 50px to include the 10px padding... same goes for the height of all the captions.</li>
-       <li>If you are using the close button script, make sure you use the full width and/or height (include padding) as well.</li>
-      </ul>
-     </li>
-     <li>In the HTML, note that the top caption comes before the image; whereas the bottom, left and right caption HTML comes after.</li>
-     <li>Script<br><br>
-      <ul>
-       <li>Hover to show caption<br><br>
-        <ul>
-         <li>This code will reveal a caption when hovering over a slider panel, and hide on mouse out.</li>
-         <li>There is a lot of extra code, for captions in multiple positions, so ideally remove the unused portions to maximize the efficiency of the code.</li>
-         <li>This script does not need the AnythingSlider FX extension.</li>
-        </ul>
-       </li>
-       <li>Slide in caption on new panel<br><br>
-        <ul>
-         <li>This code reveals a caption when a new panel comes into view.</li>
-         <li>Code examples are included below to show and reveal captions using base and custom FX. These code examples reveal the caption when the panel comes into view and hide it as it scrolls out of view.</li>
-         <li>A short additional script adds a close button (x) to each caption to allow closing the caption while on a specific panel. CSS to position the button is needed and included.</li>
-        </ul>
-       </li>
-       <li>The script needs to hide the caption when out of view (especially for right and left captions) otherwise they interfere with other panels of the slider.</li>
-      </ul>
-     </li>
+        <li>CSS<br><br>
+            <ul>
+                <li>The image needs to be set to 100% height and width because AnythingSlider will only automatically
+                    expand solitary objects; but here we have a caption!
+                </li>
+                <li>Note the caption widths &amp; heights include the padding, so for example the top &amp; bottom
+                    caption height is set to 30px instead of 50px to include the 10px padding... same goes for the
+                    height of all the captions.
+                </li>
+                <li>If you are using the close button script, make sure you use the full width and/or height (include
+                    padding) as well.
+                </li>
+            </ul>
+        </li>
+        <li>In the HTML, note that the top caption comes before the image; whereas the bottom, left and right caption
+            HTML comes after.
+        </li>
+        <li>Script<br><br>
+            <ul>
+                <li>Hover to show caption<br><br>
+                    <ul>
+                        <li>This code will reveal a caption when hovering over a slider panel, and hide on mouse out.
+                        </li>
+                        <li>There is a lot of extra code, for captions in multiple positions, so ideally remove the
+                            unused portions to maximize the efficiency of the code.
+                        </li>
+                        <li>This script does not need the AnythingSlider FX extension.</li>
+                    </ul>
+                </li>
+                <li>Slide in caption on new panel<br><br>
+                    <ul>
+                        <li>This code reveals a caption when a new panel comes into view.</li>
+                        <li>Code examples are included below to show and reveal captions using base and custom FX. These
+                            code examples reveal the caption when the panel comes into view and hide it as it scrolls
+                            out of view.
+                        </li>
+                        <li>A short additional script adds a close button (x) to each caption to allow closing the
+                            caption while on a specific panel. CSS to position the button is needed and included.
+                        </li>
+                    </ul>
+                </li>
+                <li>The script needs to hide the caption when out of view (especially for right and left captions)
+                    otherwise they interfere with other panels of the slider.
+                </li>
+            </ul>
+        </li>
     </ul>
-   </div>
+</div>
 
-   <h3><a href="#">Header</a></h3>
-   <div>
+<h3><a href="#">Header</a></h3>
+
+<div>
     <pre class="prettyprint lang-html"> &lt;!-- jQuery --&gt;
  &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js&quot;&gt;&lt;/script&gt;
 
@@ -514,10 +609,11 @@
 
  &lt;!-- Anything Slider optional FX extension --&gt;
  &lt;script src=&quot;js/jquery.anythingslider.fx.min.js&quot;&gt;&lt;/script&gt;</pre>
-   </div>
+</div>
 
-   <h3><a href="#">CSS</a></h3>
-   <div><pre class="prettyprint lang-css">/* New in version 1.7+ */
+<h3><a href="#">CSS</a></h3>
+
+<div><pre class="prettyprint lang-css">/* New in version 1.7+ */
  #slider3 {
   width: 500px;
   height: 400px;
@@ -578,10 +674,11 @@
   float: right;
   display: inline-block;
  }</pre>
-  </div>
+</div>
 
-   <h3><a href="#">HTML</a></h3>
-   <div><pre class="prettyprint lang-html"> &lt;ul id=&quot;slider3&quot;&gt;
+<h3><a href="#">HTML</a></h3>
+
+<div><pre class="prettyprint lang-html"> &lt;ul id=&quot;slider3&quot;&gt;
   &lt;li&gt;
    &lt;!-- Note this caption is before the image, all others it is after --&gt;
    &lt;div class=&quot;caption-top&quot;&gt;
@@ -608,10 +705,11 @@
    &lt;/div&gt;
   &lt;/li&gt;
  &lt;/ul&gt;</pre>
-   </div>
+</div>
 
-   <h3><a href="#">Script - Caption appears on hover (FX extension not required)</a></h3>
-   <div><pre class="prettyprint lang-javascript">$(function(){
+<h3><a href="#">Script - Caption appears on hover (FX extension not required)</a></h3>
+
+<div><pre class="prettyprint lang-javascript">$(function(){
  $('#slider3')
   .anythingSlider()
   /* this code will make the caption appear when you hover over the panel
@@ -674,10 +772,11 @@
   // hide all captions initially
   hideCaptions( $('#slider3 .panel') );
 });</pre>
-   </div>
+</div>
 
-   <h3><a href="#">Script - FX addon, using base FX</a></h3>
-   <div><pre class="prettyprint lang-javascript">$(function(){
+<h3><a href="#">Script - FX addon, using base FX</a></h3>
+
+<div><pre class="prettyprint lang-javascript">$(function(){
  $('#slider3')
   .anythingSlider()
   .anythingSliderFx({
@@ -701,10 +800,11 @@
       cap.animate(ani, 400, function(){ cap.hide(); } );
     });
 });</pre>
-   </div>
+</div>
 
-   <h3><a href="#">Script - FX addon, using custom FX</a></h3>
-   <div><pre class="prettyprint lang-javascript">$(function(){
+<h3><a href="#">Script - FX addon, using custom FX</a></h3>
+
+<div><pre class="prettyprint lang-javascript">$(function(){
  $('#slider3')
   .anythingSlider()
   /* this "custom" code is the equivalent of the base caption functions */
@@ -735,11 +835,11 @@
       cap.animate(ani, 400, function(){ cap.hide(); } );
     });
 });</pre>
-   </div>
+</div>
 
-  </div>
+</div>
 
- </div>
+</div>
 
 </body>
 

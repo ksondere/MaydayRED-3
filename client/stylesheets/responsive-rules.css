@@ -1,386 +1,436 @@
 /* 06 - MOBILE OPTIMIZATION*/
 
-@media (max-width: 768px){
-    body, html{
+@media (max-width: 768px) {
+    body, html {
         max-width: 768px !important;
         overflow-x: hidden !important;
     }
-    .container{
+
+    .container {
     }
 
-    .bg{
+    .bg {
         display: none !important;
         visibility: hidden !important;
     }
 
-    .outer-wrap{
+    .outer-wrap {
         text-align: center;
         padding: 30px 15px 0 !important
     }
-    .credit-txt{
+
+    .credit-txt {
         text-align: center !important;
     }
-    #master-foot{
+
+    #master-foot {
         padding-bottom: 50px !important;
     }
-    .main-heading-inner > span{
-        font-size: 96px;
-        line-height: 103px;
-    }
-    .main-heading{
-        font-size: 96px;
-        line-height: 103px;
-    }
-    .main-heading-alt{
-        font-size: 18px;
-        text-align: center;
-    }
-    .main-heading-inner-inv > span{
+
+    .main-heading-inner > span {
         font-size: 96px;
         line-height: 103px;
     }
 
-    .skill-info{
+    .main-heading {
+        font-size: 96px;
+        line-height: 103px;
+    }
+
+    .main-heading-alt {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .main-heading-inner-inv > span {
+        font-size: 96px;
+        line-height: 103px;
+    }
+
+    .skill-info {
         margin-bottom: 30px;
     }
-    .skill-info > p{
+
+    .skill-info > p {
         margin-top: 10px;
     }
-    .skill-info > h3 > i{
+
+    .skill-info > h3 > i {
         display: block;
     }
 
     /*Parallax layers deactivated on Mobiles*/
-    #videos{
+    #videos {
         min-height: 760px !important;
-        background:url(../images/bg/videos.jpg) center center no-repeat fixed;
+        background: url(../images/bg/videos.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #band{
-        background:#fff;
+    #band {
+        background: #fff;
     }
 
-    #band .bg{
+    #band .bg {
         display: none;
     }
-    #store{
+
+    #store {
         background: url(../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #contact-us{
+    #contact-us {
         padding-bottom: 60px !important;
         background: #fff;
     }
 }
 
-
-
-@media (max-width: 640px){
-    body, html{
+@media (max-width: 640px) {
+    body, html {
         max-width: 640px !important;
         overflow-x: hidden !important;
     }
-    .container{
+
+    .container {
     }
 
-    .bg{
+    .bg {
         display: none !important;
         visibility: hidden !important;
     }
 
-    .outer-wrap{
+    .outer-wrap {
         text-align: center;
         padding: 30px 15px 0 !important
     }
-    .credit-txt{
+
+    .credit-txt {
         text-align: center !important;
     }
-    #master-foot{
+
+    #master-foot {
         padding-bottom: 50px !important;
     }
-    .main-heading-inner > span{
-        font-size: 96px;
-        line-height: 103px;
-    }
-    .main-heading{
-        font-size: 96px;
-        line-height: 103px;
-    }
-    .main-heading-alt{
-        font-size: 18px;
-        text-align: center;
-    }
-    .main-heading-inner-inv > span{
+
+    .main-heading-inner > span {
         font-size: 96px;
         line-height: 103px;
     }
 
-    .skill-info{
+    .main-heading {
+        font-size: 96px;
+        line-height: 103px;
+    }
+
+    .main-heading-alt {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .main-heading-inner-inv > span {
+        font-size: 96px;
+        line-height: 103px;
+    }
+
+    .skill-info {
         margin-bottom: 30px;
     }
-    .skill-info > p{
+
+    .skill-info > p {
         margin-top: 10px;
     }
-    .skill-info > h3 > i{
+
+    .skill-info > h3 > i {
         display: block;
     }
 
     /*Parallax layers deactivated on Mobiles*/
-    #videos{
+    #videos {
         min-height: 760px !important;
-        background:url(../images/bg/videos.jpg) center center no-repeat fixed;
+        background: url(../images/bg/videos.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #band{
-        background:#fff;
+    #band {
+        background: #fff;
     }
 
-    #band .bg{
+    #band .bg {
         display: none;
     }
-    #store{
+
+    #store {
         background: url(../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #contact-us{
+    #contact-us {
         padding-bottom: 60px !important;
         background: #fff;
     }
 
 }
 
-@media (max-width: 480px){
-    body, html{
+@media (max-width: 480px) {
+    body, html {
         max-width: 480px !important;
         overflow-x: hidden !important;
     }
-    .container{
+
+    .container {
     }
 
-    .bg{
+    .bg {
         display: none !important;
         visibility: hidden !important;
     }
 
-    .outer-wrap{
+    .outer-wrap {
         text-align: center;
         padding: 30px 15px 0 !important
     }
-    .credit-txt{
+
+    .credit-txt {
         text-align: center !important;
     }
-    #master-foot{
+
+    #master-foot {
         padding-bottom: 50px !important;
     }
-    .main-heading-inner > span{
+
+    .main-heading-inner > span {
         font-size: 96px;
         line-height: 103px;
     }
-    .main-heading{
+
+    .main-heading {
         font-size: 96px;
         line-height: 103px;
     }
-    .main-heading-alt{
+
+    .main-heading-alt {
         font-size: 18px;
         text-align: center;
     }
-    .main-heading-inner-inv > span{
+
+    .main-heading-inner-inv > span {
         font-size: 96px;
         line-height: 103px;
     }
-    .skill-info{
+
+    .skill-info {
         margin-bottom: 30px;
     }
-    .skill-info > p{
+
+    .skill-info > p {
         margin-top: 10px;
     }
-    .skill-info > h3 > i{
+
+    .skill-info > h3 > i {
         display: block;
     }
 
-
     /*Parallax layers deactivated on Mobiles*/
-    #videos{
+    #videos {
         min-height: 760px !important;
-        background:url(../images/bg/videos.jpg) center center no-repeat fixed;
+        background: url(../images/bg/videos.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #band{
-        background:#fff;
+    #band {
+        background: #fff;
     }
 
-    #band .bg{
+    #band .bg {
         display: none;
     }
-    #store{
+
+    #store {
         background: url(../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #contact-us{
+    #contact-us {
         padding-bottom: 60px !important;
         background: #fff;
     }
 
 }
 
-
-@media (max-width: 360px){
-    body, html{
+@media (max-width: 360px) {
+    body, html {
         max-width: 360px !important;
         overflow-x: hidden !important;
     }
-    .container{
+
+    .container {
     }
 
-    .bg{
+    .bg {
         display: none !important;
         visibility: hidden !important;
     }
 
-    .outer-wrap{
+    .outer-wrap {
         text-align: center;
         padding: 30px 15px 0 !important
     }
-    .credit-txt{
+
+    .credit-txt {
         text-align: center !important;
     }
-    #master-foot{
+
+    #master-foot {
         padding-bottom: 50px !important;
     }
-    .main-heading-inner > span{
+
+    .main-heading-inner > span {
         font-size: 64px;
         line-height: 103px;
     }
-    .main-heading{
+
+    .main-heading {
         font-size: 64px;
         line-height: 103px;
     }
-    .main-heading-alt{
+
+    .main-heading-alt {
         font-size: 18px;
         text-align: center;
     }
-    .main-heading-inner-inv > span{
+
+    .main-heading-inner-inv > span {
         font-size: 64px;
         line-height: 103px;
     }
-    .main-heading-alt > span{
+
+    .main-heading-alt > span {
         background: none;
     }
-    .skill-info{
+
+    .skill-info {
         margin-bottom: 30px;
     }
-    .skill-info > p{
+
+    .skill-info > p {
         margin-top: 10px;
     }
-    .skill-info > h3 > i{
+
+    .skill-info > h3 > i {
         display: block;
     }
 
     /*Parallax layers deactivated on Mobiles*/
-    #videos{
+    #videos {
         min-height: 600px !important;
-        background:url(../images/bg/videos.jpg) center center no-repeat fixed;
+        background: url(../images/bg/videos.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #band{
-        background:#fff;
+    #band {
+        background: #fff;
     }
 
-    #band .bg{
+    #band .bg {
         display: none;
     }
-    #store{
+
+    #store {
         background: url(../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #contact-us{
+    #contact-us {
         padding-bottom: 60px !important;
         background: #fff;
     }
 }
 
-
-@media (max-width: 320px){
-    body, html{
+@media (max-width: 320px) {
+    body, html {
         max-width: 320px !important;
         overflow-x: hidden !important;
     }
-    .container{
+
+    .container {
     }
 
-    .bg{
+    .bg {
         display: none !important;
         visibility: hidden !important;
     }
 
-    .outer-wrap{
+    .outer-wrap {
         text-align: center;
         padding: 30px 15px 0 !important
     }
-    .credit-txt{
+
+    .credit-txt {
         text-align: center !important;
     }
-    #master-foot{
+
+    #master-foot {
         padding-bottom: 50px !important;
     }
-    .main-heading-inner > span{
+
+    .main-heading-inner > span {
         font-size: 64px;
         line-height: 103px;
     }
-    .main-heading{
+
+    .main-heading {
         font-size: 64px;
         line-height: 103px;
     }
-    .main-heading-alt{
+
+    .main-heading-alt {
         font-size: 18px;
         line-height: 22px;
         text-align: center;
     }
-    .main-heading-alt > span{
+
+    .main-heading-alt > span {
         background: none;
     }
-    .main-heading-inner-inv > span{
+
+    .main-heading-inner-inv > span {
         font-size: 64px;
         line-height: 103px;
     }
-    .skill-info{
+
+    .skill-info {
         margin-bottom: 30px;
     }
-    .skill-info > p{
+
+    .skill-info > p {
         margin-top: 10px;
     }
-    .skill-info > h3 > i{
+
+    .skill-info > h3 > i {
         display: block;
     }
 
     /*Parallax layers deactivated on Mobiles*/
-    #videos{
+    #videos {
         min-height: 600px !important;
-        background:url(../images/bg/videos.jpg) center center no-repeat fixed;
+        background: url(../images/bg/videos.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #band{
-        background:#fff;
+    #band {
+        background: #fff;
     }
 
-    #band .bg{
+    #band .bg {
         display: none;
     }
-    #store{
+
+    #store {
         background: url(../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
-    #contact-us{
+    #contact-us {
         padding-bottom: 60px !important;
         background: #fff;
     }

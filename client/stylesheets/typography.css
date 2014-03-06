@@ -2,26 +2,27 @@
    Font-face:
 ----------------------------------------- */
 
-@font-face{
-    font-family:"Rocket";
+@font-face {
+    font-family: "Rocket";
     src: url('../font_diner/ROCKS__.TTF') format('truetype');
 }
 
-@font-face{
-    font-family:"Sparkly";
+@font-face {
+    font-family: "Sparkly";
     src: url('../font_diner/FontdSpaTT.ttf') format('truetype');
 }
 
-@font-face{
-    font-family:"Matchbook";
+@font-face {
+    font-family: "Matchbook";
     src: url('../font_diner/MATCHBOOK.TTF') format('truetype');
 }
 
-.border-top{
-	padding-top: 20px;
-	border-top: solid 1px #aaa;
+.border-top {
+    padding-top: 20px;
+    border-top: solid 1px #aaa;
 }
-.border-bottom{
-	padding-bottom: 20px;
-	border-bottom: solid 1px #aaa;
+
+.border-bottom {
+    padding-bottom: 20px;
+    border-bottom: solid 1px #aaa;
 }

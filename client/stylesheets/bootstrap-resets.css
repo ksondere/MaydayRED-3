@@ -1,80 +1,90 @@
 /* 01 - LAYOUT INITIALIZATION */
 
-body{
-    overflow-x:hidden !important;
-    background:#fff !important
+body {
+    overflow-x: hidden !important;
+    background: #fff !important
 }
-a img{
-    border:none !important;
+
+a img {
+    border: none !important;
 }
-a:hover{
-    color:#8B0000;
+
+a:hover {
+    color: #8B0000;
 }
-p{
+
+p {
     font-size: 30px;
     line-height: 21px;
     color: #555;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 0px !important;
 }
-.container{
+
+.container {
     width: 100% !important;
 }
-.add-top-main{
+
+.add-top-main {
 }
-.pad-common{
+
+.pad-common {
     padding: 15px;
 }
 
 /*Bootstrap Resets*/
 
-.text-field{
+.text-field {
     margin-top: 12px !important;
     margin-bottom: 18px !important;
     background: #eee !important;
     border: none !important;
     border-radius: 0px !important;
-    box-shadow:none !important;
+    box-shadow: none !important;
     color: #000 !important;
-    font-size: 18px!important;
+    font-size: 18px !important;
     transition: all 0.15s linear 0s;
     width: 100%;
-    font-family:"Open_Sans_R" !important;
+    font-family: "Open_Sans_R" !important;
 }
+
 .text-field:hover {
     margin-top: 12px !important;
     margin-bottom: 18px !important;
     background: #8B0000 !important;
     border: none !important;
     border-radius: 0px !important;
-    box-shadow:none !important;
+    box-shadow: none !important;
     color: #fff !important;
-    font-size: 18px!important;
+    font-size: 18px !important;
     transition: all 0.15s linear 0s;
     width: 100%;
-    font-family:"Open_Sans_R" !important;
+    font-family: "Open_Sans_R" !important;
 }
+
 textarea {
     background: #fff;
     border: solid 1px #4AB7E4 !important;
     border-radius: 0px !important;
-    box-shadow:none !important;
+    box-shadow: none !important;
     color: #000 !important;
     display: block;
-    font-size: 18px!important;
+    font-size: 18px !important;
     height: 130px;
     margin: 0 0 35px;
     padding: 6px;
     transition: all 0.15s linear 0s;
     width: 100%;
-    font-family:"Open_Sans_R" !important;
+    font-family: "Open_Sans_R" !important;
 }
-textarea:hover{
+
+textarea:hover {
     background: #8B0000;
     border: none !important;
     border-radius: 0px !important;
-    box-shadow:none !important;
+    box-shadow: none !important;
     color: #fff !important;
     display: block;
     font-size: 18px !important;
@@ -83,10 +93,10 @@ textarea:hover{
     padding: 6px;
     transition: all 0.15s linear 0s;
     width: 100%;
-    font-family:"Open_Sans_R" !important;
+    font-family: "Open_Sans_R" !important;
 }
 
-input:focus, textarea:focus{
+input:focus, textarea:focus {
     background: #4AB7E4 !important;
     color: #fff !important;
 }
@@ -95,13 +105,14 @@ input:focus, textarea:focus{
     background-color: #8B0000 !important;
     border: none !important;
     color: #FFF !important;
-    padding: 5px 10px 2px 10px!important;
+    padding: 5px 10px 2px 10px !important;
 }
+
 .button.secondary:hover {
     background-color: #FFF !important;
     border: none !important;
     color: #8B0000 !important;
-    padding: 5px 10px 2px 10px!important;
+    padding: 5px 10px 2px 10px !important;
     cursor: pointer;
 }
 

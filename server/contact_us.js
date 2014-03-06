@@ -1,17 +1,17 @@
 Meteor.methods({
-  sendEmail: function (from, name, text){
-    check([from, name, text], [String]);
-    
-    console.log('before send email');
+    sendEmail: function (from, name, text) {
+        check([from, name, text], [String]);
 
-    this.unblock();
-    Email.send({
-    to: 'ksondere@gmail.com',
-    from: from,
-    subject: name,
-    text: text
-    });
+        console.log('before send email');
 
-    console.log('email sent from: ' + name + 'with email address: ' + from);
-  }
+        this.unblock();
+        Email.send({
+            to: 'ksondere@gmail.com',
+            from: from,
+            subject: name,
+            text: text
+        });
+
+        console.log('email sent from: ' + name + 'with email address: ' + from);
+    }
 })
