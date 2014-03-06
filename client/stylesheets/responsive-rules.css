@@ -1,0 +1,387 @@
+/* 06 - MOBILE OPTIMIZATION*/
+
+@media (max-width: 768px){
+    body, html{
+        max-width: 768px !important;
+        overflow-x: hidden !important;
+    }
+    .container{
+    }
+
+    .bg{
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .outer-wrap{
+        text-align: center;
+        padding: 30px 15px 0 !important
+    }
+    .credit-txt{
+        text-align: center !important;
+    }
+    #master-foot{
+        padding-bottom: 50px !important;
+    }
+    .main-heading-inner > span{
+        font-size: 96px;
+        line-height: 103px;
+    }
+    .main-heading{
+        font-size: 96px;
+        line-height: 103px;
+    }
+    .main-heading-alt{
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-heading-inner-inv > span{
+        font-size: 96px;
+        line-height: 103px;
+    }
+
+    .skill-info{
+        margin-bottom: 30px;
+    }
+    .skill-info > p{
+        margin-top: 10px;
+    }
+    .skill-info > h3 > i{
+        display: block;
+    }
+
+    /*Parallax layers deactivated on Mobiles*/
+    #videos{
+        min-height: 760px !important;
+        background:url(../images/bg/01.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #band{
+        background:#fff;
+    }
+
+    #band .bg{
+        display: none;
+    }
+    #store{
+        background: url(../images/bg/05.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #contact-us{
+        padding-bottom: 60px !important;
+        background: #fff;
+    }
+}
+
+
+
+@media (max-width: 640px){
+    body, html{
+        max-width: 640px !important;
+        overflow-x: hidden !important;
+    }
+    .container{
+    }
+
+    .bg{
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .outer-wrap{
+        text-align: center;
+        padding: 30px 15px 0 !important
+    }
+    .credit-txt{
+        text-align: center !important;
+    }
+    #master-foot{
+        padding-bottom: 50px !important;
+    }
+    .main-heading-inner > span{
+        font-size: 96px;
+        line-height: 103px;
+    }
+    .main-heading{
+        font-size: 96px;
+        line-height: 103px;
+    }
+    .main-heading-alt{
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-heading-inner-inv > span{
+        font-size: 96px;
+        line-height: 103px;
+    }
+
+    .skill-info{
+        margin-bottom: 30px;
+    }
+    .skill-info > p{
+        margin-top: 10px;
+    }
+    .skill-info > h3 > i{
+        display: block;
+    }
+
+    /*Parallax layers deactivated on Mobiles*/
+    #videos{
+        min-height: 760px !important;
+        background:url(../images/bg/01.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #band{
+        background:#fff;
+    }
+
+    #band .bg{
+        display: none;
+    }
+    #store{
+        background: url(../images/bg/05.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #contact-us{
+        padding-bottom: 60px !important;
+        background: #fff;
+    }
+
+}
+
+@media (max-width: 480px){
+    body, html{
+        max-width: 480px !important;
+        overflow-x: hidden !important;
+    }
+    .container{
+    }
+
+    .bg{
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .outer-wrap{
+        text-align: center;
+        padding: 30px 15px 0 !important
+    }
+    .credit-txt{
+        text-align: center !important;
+    }
+    #master-foot{
+        padding-bottom: 50px !important;
+    }
+    .main-heading-inner > span{
+        font-size: 96px;
+        line-height: 103px;
+    }
+    .main-heading{
+        font-size: 96px;
+        line-height: 103px;
+    }
+    .main-heading-alt{
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-heading-inner-inv > span{
+        font-size: 96px;
+        line-height: 103px;
+    }
+    .skill-info{
+        margin-bottom: 30px;
+    }
+    .skill-info > p{
+        margin-top: 10px;
+    }
+    .skill-info > h3 > i{
+        display: block;
+    }
+
+
+    /*Parallax layers deactivated on Mobiles*/
+    #videos{
+        min-height: 760px !important;
+        background:url(../images/bg/01.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #band{
+        background:#fff;
+    }
+
+    #band .bg{
+        display: none;
+    }
+    #store{
+        background: url(../images/bg/05.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #contact-us{
+        padding-bottom: 60px !important;
+        background: #fff;
+    }
+
+}
+
+
+@media (max-width: 360px){
+    body, html{
+        max-width: 360px !important;
+        overflow-x: hidden !important;
+    }
+    .container{
+    }
+
+    .bg{
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .outer-wrap{
+        text-align: center;
+        padding: 30px 15px 0 !important
+    }
+    .credit-txt{
+        text-align: center !important;
+    }
+    #master-foot{
+        padding-bottom: 50px !important;
+    }
+    .main-heading-inner > span{
+        font-size: 64px;
+        line-height: 103px;
+    }
+    .main-heading{
+        font-size: 64px;
+        line-height: 103px;
+    }
+    .main-heading-alt{
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-heading-inner-inv > span{
+        font-size: 64px;
+        line-height: 103px;
+    }
+    .main-heading-alt > span{
+        background: none;
+    }
+    .skill-info{
+        margin-bottom: 30px;
+    }
+    .skill-info > p{
+        margin-top: 10px;
+    }
+    .skill-info > h3 > i{
+        display: block;
+    }
+
+    /*Parallax layers deactivated on Mobiles*/
+    #videos{
+        min-height: 600px !important;
+        background:url(../images/bg/01.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #band{
+        background:#fff;
+    }
+
+    #band .bg{
+        display: none;
+    }
+    #store{
+        background: url(../images/bg/05.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #contact-us{
+        padding-bottom: 60px !important;
+        background: #fff;
+    }
+}
+
+
+@media (max-width: 320px){
+    body, html{
+        max-width: 320px !important;
+        overflow-x: hidden !important;
+    }
+    .container{
+    }
+
+    .bg{
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .outer-wrap{
+        text-align: center;
+        padding: 30px 15px 0 !important
+    }
+    .credit-txt{
+        text-align: center !important;
+    }
+    #master-foot{
+        padding-bottom: 50px !important;
+    }
+    .main-heading-inner > span{
+        font-size: 64px;
+        line-height: 103px;
+    }
+    .main-heading{
+        font-size: 64px;
+        line-height: 103px;
+    }
+    .main-heading-alt{
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .main-heading-alt > span{
+        background: none;
+    }
+    .main-heading-inner-inv > span{
+        font-size: 64px;
+        line-height: 103px;
+    }
+    .skill-info{
+        margin-bottom: 30px;
+    }
+    .skill-info > p{
+        margin-top: 10px;
+    }
+    .skill-info > h3 > i{
+        display: block;
+    }
+
+    /*Parallax layers deactivated on Mobiles*/
+    #videos{
+        min-height: 600px !important;
+        background:url(../images/bg/01.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #band{
+        background:#fff;
+    }
+
+    #band .bg{
+        display: none;
+    }
+    #store{
+        background: url(../images/bg/05.jpg) center center no-repeat fixed;
+        background-size: cover;
+    }
+
+    #contact-us{
+        padding-bottom: 60px !important;
+        background: #fff;
+    }
+}

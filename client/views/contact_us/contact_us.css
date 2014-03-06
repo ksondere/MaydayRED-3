@@ -1,0 +1,93 @@
+#contact-us{
+    background: url(../images/bg/06.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    min-height: 950px;
+    /*box-shadow:0 0 16px 0 rgba(0, 0, 0, 0.9);*/
+}
+.contact{
+    list-style:none;
+    color:#000 !important;
+    font-family: Matchbook;
+}
+.contact a{
+    color:#8B0000 !important;
+}
+
+.contact a:hover{
+    color:#FFF !important;
+    background-color:#8B0000;
+    text-decoration: none !important;
+}
+.contact li{
+    font-size:20px !important;
+    line-height:25px;
+    padding-top:15px;
+    padding-bottom:10px;
+    border-bottom:solid 1px #ccc;
+}
+.foundation-social{
+    font-family:"Foundation_Social";
+    font-style:normal !important;
+}
+.contact li span{
+    font-size:24px !important;
+    line-height:25px;
+    display:inline-block;
+    margin-left:5px;
+    font-family: Rocket;
+}
+.contact li i{
+    font-size:32px;
+    margin-right:5px;
+}
+.contact-first{
+    border-top:none;
+    margin-top:30px;
+}
+.contact-form-label{
+    color: #000 !important;
+    font-family: Matchbook;
+    font-size:40px !important;
+}
+.contact-icons {
+    margin-top: 30px;
+    list-style: none outside none;
+}
+.contact-icons li {
+    font-size: 14px;
+    color:#FFF !important;
+}
+.contact-icons li span {
+    font-size: 16px;
+    margin-right: 5px;
+    color:#4AB7E4 !important;
+}
+#address-block p{
+    margin-top: 30px;
+    font-size:14px !important;
+}
+.contact-btn{
+    /*text-transform:uppercase;*/
+    font-family: Matchbook;
+    font-size: 40px;
+    border-radius: 5px;
+}
+.text-field{
+    font-family: Matchbook;
+    font-size:16px !important;
+    color:#999 !important;
+}
+.error{
+    color:#8B0000 !important;
+}
+
+#submit-form {
+
+}
+
+#show-message {
+    font-family: "Matchbook", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    layout: inline-block;
+    font-size: 30px;
+    padding: 20px;
+}
