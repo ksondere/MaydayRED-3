@@ -42,7 +42,7 @@
         </entry>
       </file>
       <file leaf-file-name="main.html.old-script" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/main.html.old-script">
+        <entry file="file://$PROJECT_DIR$/tests/main.html.old-script">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="34" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="1740">
               <folding />
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script-nav.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script-nav.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/views/navigation/script-nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="16" selection-start="3579" selection-end="3579" vertical-scroll-proportion="0.0" vertical-offset="1329" max-vertical-offset="2040">
+            <state line="82" column="0" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.95780593" vertical-offset="549" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -62,16 +62,36 @@
       <file leaf-file-name="store.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/store/store.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="154" selection-start="6707" selection-end="6707" vertical-scroll-proportion="-7.82" vertical-offset="899" max-vertical-offset="1560">
+            <state line="86" column="154" selection-start="6707" selection-end="6707" vertical-scroll-proportion="-25.8" vertical-offset="0" max-vertical-offset="1560">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="videos.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="responsive-nav.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/navigation/responsive-nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1839" max-vertical-offset="6210">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videos.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/videos/videos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="11" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.6113537" vertical-offset="0" max-vertical-offset="687">
+            <state line="28" column="11" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.meteor/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
               <folding />
             </state>
           </provider>
@@ -131,7 +151,6 @@
         <option value="$PROJECT_DIR$/client/views/contact_us/contact_us.html" />
         <option value="$PROJECT_DIR$/.meteor/local/build/programs/client/app/client/views/navigation/template.navigation.js" />
         <option value="$PROJECT_DIR$/client/views/navigation/navigation.html" />
-        <option value="$PROJECT_DIR$/client/views/navigation/script-nav.js" />
         <option value="$PROJECT_DIR$/client/views/footer/footer.css" />
         <option value="$PROJECT_DIR$/client/views/videos/vidoes.css" />
         <option value="$PROJECT_DIR$/client/stylesheets/pages.css" />
@@ -145,6 +164,7 @@
         <option value="$PROJECT_DIR$/client/views/store/store.css" />
         <option value="$PROJECT_DIR$/client/views/store/store.html" />
         <option value="$PROJECT_DIR$/client/views/navigation/script.js" />
+        <option value="$PROJECT_DIR$/client/views/navigation/script-nav.js" />
       </list>
     </option>
   </component>
@@ -207,7 +227,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,18 +284,12 @@
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MaydayRED-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaydayRED-3" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".meteor" />
+              <option name="myItemId" value="navigation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,92 +300,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MaydayRED-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaydayRED-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaydayRED-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaydayRED-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaydayRED-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaydayRED-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MaydayRED-3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".meteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MaydayRED-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MaydayRED-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".meteor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,9 +342,9 @@
       <recent name="$PROJECT_DIR$/client/stylesheets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/tests/old_public" />
       <recent name="$PROJECT_DIR$/tests/old_bg" />
-      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/client/views/store" />
     </key>
@@ -528,20 +474,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/views/navigation/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="11" selection-start="1484" selection-end="1484" vertical-scroll-proportion="-20.958334" vertical-offset="52" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/contact_us/contact_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="82" selection-start="590" selection-end="590" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="1245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/stylesheets/bootstrap-resets.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695" />
@@ -798,23 +730,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/store/store.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="154" selection-start="6707" selection-end="6707" vertical-scroll-proportion="-7.82" vertical-offset="899" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/main.html.old-script">
+    <entry file="file://$PROJECT_DIR$/tests/main.html.old-script">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="34" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="1740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/navigation/script-nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="16" selection-start="3579" selection-end="3579" vertical-scroll-proportion="0.0" vertical-offset="1329" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
@@ -828,7 +746,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/videos/videos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="11" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.6113537" vertical-offset="0" max-vertical-offset="687">
+        <state line="28" column="11" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="711">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/store/store.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="154" selection-start="6707" selection-end="6707" vertical-scroll-proportion="-25.8" vertical-offset="0" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/navigation/responsive-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6210">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/navigation/script-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.95780593" vertical-offset="549" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>

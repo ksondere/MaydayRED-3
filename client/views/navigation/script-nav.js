@@ -108,7 +108,7 @@ $('#nav, #mobile-nav').localScroll(800);
     
     
     //JQUERY TRANSIT INTEGRATION
-    //note: portfolio filter needs these functions to be called on filter.js also
+    //note: store filter needs these functions to be called on filter.js also
     $('.item').mouseenter(function(e) {
         $(this).css('z-index','999999').stop().transition({ scale: 1.2 });
     });
