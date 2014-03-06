@@ -1,4 +1,14 @@
 (function(){
+  Meteor.methods({
+        sendEmail: function (from, name, text){
+            check([from, name, text], [String]);
+            if (this.isSimulation) {
+                Session.set('message', 'Sending your message now');
+                return;
+            }
+        }
+    })
+
   function parseForm(form){
     var fields;
     var fieldArray = $(form).serializeArray();
@@ -30,13 +40,16 @@
           Session.set("message", "We're sorry, an error occured. Please try to contact us directly or try again later");
           console.log("error: " + err);
         } else {
-          Session.set("message", "Thank you for contacting us!");         
-          Meteor.setTimeout(3000, function(){
+          Session.set("message", "Thank you for contacting us!");
+          Meteor.setTimeout(function(){
               Session.set("message", ""); 
-              console.log("timeout occurred and message set to ''");
-          });
+              console.log("timeout occurred and message set to " + Session.get("message") + ".");
+          }, 3000);
         }
-      });            
+      });
+      msg.value = "";
+      email.value = "";
+      name.value = "";
     }
   }
   
