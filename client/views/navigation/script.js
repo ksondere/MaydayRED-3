@@ -143,16 +143,16 @@ $(function () {
     
     
    //Portfolio Hover
-    $('.folio-item').mouseenter(function () {
+    $('.store-item').mouseenter(function () {
         $(this).find('img').css('opacity', '0.2');
-        $(this).find('.folio-trigger-icon').fadeIn();
+        $(this).find('.store-trigger-icon').fadeIn();
         $(this).find('.titles').fadeIn();
     });
 
-    $('.folio-item').mouseleave(function () {
-        $('.folio-item').find('.titles').fadeOut();
-        $(this).find('.folio-trigger-icon').fadeOut();
-        $('.folio-item').find('img').css('opacity', '1');
+    $('.store-item').mouseleave(function () {
+        $('.store-item').find('.titles').fadeOut();
+        $(this).find('.store-trigger-icon').fadeOut();
+        $('.store-item').find('img').css('opacity', '1');
     });
     
     //Revela Lightbox from ZURB Foundation (added on)
