@@ -17,6 +17,7 @@
     src: url('../font_diner/MATCHBOOK.TTF') format('truetype');
 }
 
+
 .border-top {
     padding-top: 20px;
     border-top: solid 1px #aaa;

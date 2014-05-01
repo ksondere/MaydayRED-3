@@ -1,3 +1,16 @@
+/* page colors */
+.item_name, .item_price, .simpleCart_quantity, .simpleCart_total, .simpleCart_checkout, .store-text{
+    color: #8B0000;
+}
+
+.spacer-xs {
+  height: 1em;
+}
+
+.spacer-md {
+  height: 15em;
+}
+
 #store {
     background: url(../images/bg/store.jpg) 50% 0 no-repeat fixed;
     color: white;
@@ -61,7 +74,7 @@
 
 #filters a {
     padding: 0 10px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 32px;
     line-height: 44px;
@@ -179,12 +192,12 @@
 }
 
 h1, h2 {
-    font-family: "Sparkly", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-family: "Matchbook", 'Helvetica Neue', Arial, Helvetica, sans-serif;
     margin: 0px, auto;
 }
 
 .store-link {
-    font-family: Sparkly;
+    font-family: Matchbook;
 }
 
 .store-tag {
@@ -205,4 +218,9 @@ h1, h2 {
 .medium-para {
     font-size: 40px;
     line-height: 51px;
+}
+
+.songs {
+    vertical-align: bottom;
+    float: none;
 }

@@ -6,7 +6,8 @@
 standard-app-packages
 autopublish
 insecure
-preserve-inputs
 anything-slider
 bootstrap-3
 email
+
+font-awesome

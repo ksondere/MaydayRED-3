@@ -30,7 +30,7 @@
 }
 
 .foundation-social {
-    font-family: "Foundation_Social";
+    font-family: "SocialFoundicons";
     font-style: normal !important;
 }
 
@@ -79,11 +79,18 @@
     font-size: 14px !important;
 }
 
-.contact-btn {
-    /*text-transform:uppercase;*/
+button#submit.contact-btn {
     font-family: Matchbook;
     font-size: 40px;
     border-radius: 5px;
+    color: #8B0000 !important; 
+    margin: 1px;
+    padding: 4px;
+}
+
+button#submit.contact-btn:hover {
+    background: #8B0000 !important;
+    color: #FFF; 
 }
 
 .text-field {
@@ -106,3 +113,4 @@
     font-size: 30px;
     padding: 20px;
 }
+

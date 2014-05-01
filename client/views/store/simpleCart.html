@@ -1,0 +1,108 @@
+
+
+
+
+<template name="simpleCart" class="clearfix">
+    <h1><a href="/">simpleCart(js)</a></h1>
+    <div id="content">
+        <header>
+            <nav id="mainNavigation">
+                <ul>
+                    <li><a href="http://simplecartjs.org/features">Features</a></li>
+                    <li class="last"><a href="http://simplecartjs.org/documentation">Documentation</a></li>
+
+                    <li class="last"><a href="http://github.com/wojodesign/simplecart-js">Source</a></li>
+                </ul>
+            </nav>
+
+            <div class="cartInfo"><span class="simpleCart_quantity"></span> items</div>
+            <div id="cartPopover">
+                <div id="triangle">&#x25B2;</div>
+                <div class="simpleCart_items"></div>
+                <div id="cartData" class="clearfix">
+                    <div class="left"><strong>Items: </strong><span class="simpleCart_quantity"></span></div>
+                    <div class="right"><strong>Total: </strong><span class="simpleCart_total"></span></div>
+                </div>
+                <div id="popoverButtons" class="clearfix">
+                    <a href="/cart/" class="hudbtn left">View</a>
+                    <a href="javascript:;" class="simpleCart_checkout hudbtn primary right">Checkout</a>
+                </div>
+            </div><!--End #cartPopover-->
+
+
+        </header><!--End header-->
+
+        <section class="intro row">
+            <div class="one-half">
+                <h2 class="welcome">A free and open-source javascript shopping cart that easily integrates with your current website.</h2>
+                <a href="https://github.com/wojodesign/simplecart-js/zipball/master" class="btnDownload"><span>Download</span></a>
+            </div>
+            <div id="demo" class="one-half">
+                <div id="demoShelf">
+                    <div class="simpleCart_shelfItem">
+                        <div class="tooltip">
+                            <span class="item_price">$19.99</span>
+                            <a href="javascript:;" class="item_add">Add to Cart</a>
+                        </div>
+                        <img src="/assets/images/inceptiondvd.png" alt="Sample Product" class="item_image item_add"/>
+                        <span class="item_name">Inception</span>
+                    </div>
+                    <div class="simpleCart_shelfItem">
+                        <div class="tooltip">
+                            <span class="item_price">$59.99</span>
+                            <a href="javascript:;" class="item_add">Add to Cart</a>
+                        </div>
+                        <img src="/assets/images/nhl12.png" alt="Sample Product" class="item_image item_add"/>
+                        <span class="item_name">NHL 12</span>
+                    </div>
+                    <!-- <div class="simpleCart_shelfItem">
+                                        <div class="tooltip">
+                                            <span class="item_price">$9.99</span>
+                                            <a href="javascript:;" class="item_add">Add to Cart</a>
+                                        </div>
+                                        <img src="/assets/images/blackkeysbrothers.png" alt="Sample Product" class="item_image"/>
+                                        <span class="item_name">Black Keys - Brothers</span>
+                                    </div> -->
+                    <div class="simpleCart_shelfItem">
+                        <div class="tooltip">
+                            <span class="item_price">$12.99</span>
+                            <a href="javascript:;" class="item_add">Add to Cart</a>
+                        </div>
+                        <img src="/assets/images/goodtogreat.png" alt="Sample Product" class="item_image item_add"/>
+                        <span class="item_name">Good To Great</span>
+                    </div>
+                </div>
+                <span id="demoArrows">Give the demo a try</span>
+            </div><!--End #demo -->
+        </section>
+        <section class="row">
+		<span class="one-half home-page-code" >
+			<pre class="js">simpleCart({
+  checkout: {
+    type: "PayPal",
+    email: "you@yours.com"
+  }
+});</pre>
+		</span>
+		<span class="one-half">
+			<h2>Ecommerce in Minutes.</h2>
+			<div class="largeText"><p>
+                No databases, no programming, no headaches. A simple javascript shopping cart that you can setup in minutes. It&#39;s lightweight, fast, simple to use, and completely customizable. <strong>All you need to know is basic HTML.</strong></p>
+            </div>
+			<p>
+                <a href="/features/" class="large btn"><span class="icn icnList">Browse Features</span></a>
+            </p>
+		</span>
+        </section>
+
+        <footer>
+            <h1 class="left"><a href="/">simpleCart(js)</a></h1>
+            <div class="right">
+                <a href="http://github.com/wojodesign/simplecart-js" target="_blank" class="icnGithub">Github</a>
+                &nbsp;&nbsp;
+                <a href="http://twitter.com/simplecartjs" target="_blank" class="icnTwitter">Twitter</a>
+            </div>
+        </footer>
+    </div><!-- End #content -->
+</template><!-- End #container -->
+
