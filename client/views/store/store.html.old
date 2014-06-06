@@ -15,12 +15,12 @@
                             Music, Apparel, and even a Mayday RED drink<br><br> Enjoy!
                         </p>-->
                         <p id="work-intro" class="col-md-offset-1 col-md-12 medium-para mayday-red-txt pad-top pad-bottom">
-                            You can buy our new Album one at a time or all at once.  You decide!
+                             You can buy our new Album one at a time or all at once.  You decide!
                         </p>
                     </section>
                     <section class="row">
-                        <div class="col-md-12 spacer-md"></div>
-                    </section>
+                      <div class="col-md-12 spacer-md"></div>  
+                    </section>  
                     <div class="row songs">
                         <article class="col-md-offset-3">
                             <div class="simpleCart_shelfItem col-md-2">
@@ -38,20 +38,20 @@
                         </article>
                     </div>
                     <section class="row">
-                        <div class="col-md-12 spacer-xs"></div>
+                      <div class="col-md-12 spacer-xs"></div>  
                     </section>
                     <div class="row button-group">
                         <article class="col-md-offset-3">
-                            <div class="btn btn-default">
-                                <span class="simpleCart_quantity"></span><span class="store-text"> items - </span><span class="simpleCart_total"></span>
-                                <a href="javascript:;" class="simpleCart_checkout">Checkout</a>  <i class="fa fa-shopping-cart"></i>
-                            </div>
-                            <section class="inner-row">
-                                <div class="col-md-12 spacer-xs"></div>
-                            </section>
-                            <div>
-                                <a href="javascript:;" class="simpleCart_empty btn btn-default store-text">Empty Checkout Cart</a>
-                            </div>
+                        <div class="btn btn-default">
+                            <span class="simpleCart_quantity"></span><span class="store-text"> items - </span><span class="simpleCart_total"></span>
+                            <a href="javascript:;" class="simpleCart_checkout">Checkout</a>  <i class="fa fa-shopping-cart"></i>
+                        </div>
+                    <section class="inner-row">
+                      <div class="col-md-12 spacer-xs"></div>  
+                    </section>
+                        <div>
+                            <a href="javascript:;" class="simpleCart_empty btn btn-default store-text">Empty Checkout Cart</a>
+                        </div>
                         </article>
                     </div>
                 </div>

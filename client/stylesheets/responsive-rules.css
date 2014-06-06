@@ -62,7 +62,7 @@
     /*Parallax layers deactivated on Mobiles*/
     #videos {
         min-height: 760px !important;
-        background: url(../images/bg/videos.jpg) center center no-repeat fixed;
+        background: url(../../images/bg/videos.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
@@ -75,7 +75,7 @@
     }
 
     #store {
-        background: url(../images/bg/store.jpg) center center no-repeat fixed;
+        background: url(../../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
@@ -147,7 +147,7 @@
     /*Parallax layers deactivated on Mobiles*/
     #videos {
         min-height: 760px !important;
-        background: url(../images/bg/videos.jpg) center center no-repeat fixed;
+        background: url(../../images/bg/videos.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
@@ -160,7 +160,7 @@
     }
 
     #store {
-        background: url(../images/bg/store.jpg) center center no-repeat fixed;
+        background: url(../../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
@@ -246,7 +246,7 @@
     }
 
     #store {
-        background: url(../images/bg/store.jpg) center center no-repeat fixed;
+        background: url(../../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
@@ -323,7 +323,7 @@
     /*Parallax layers deactivated on Mobiles*/
     #videos {
         min-height: 600px !important;
-        background: url(../images/bg/videos.jpg) center center no-repeat fixed;
+        background: url(../../images/bg/videos.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
@@ -336,7 +336,7 @@
     }
 
     #store {
-        background: url(../images/bg/store.jpg) center center no-repeat fixed;
+        background: url(../../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
@@ -413,7 +413,7 @@
     /*Parallax layers deactivated on Mobiles*/
     #videos {
         min-height: 600px !important;
-        background: url(../images/bg/videos.jpg) center center no-repeat fixed;
+        background: url(../../images/bg/videos.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
@@ -426,7 +426,7 @@
     }
 
     #store {
-        background: url(../images/bg/store.jpg) center center no-repeat fixed;
+        background: url(../../images/bg/store.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 

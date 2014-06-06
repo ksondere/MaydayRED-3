@@ -12,7 +12,7 @@
 }
 
 #store {
-    background: url(../images/bg/store.jpg) 50% 0 no-repeat fixed;
+    background: url(../../../images/bg/store.jpg) 50% 0 no-repeat fixed;
     color: white;
     min-height: 900px;
     padding-bottom: 60px !important;
@@ -177,7 +177,7 @@
     font-family: "sosa";
     font-size: 36px;
     color: #fff;
-    background: url('../images/info.png') no-repeat center center;
+    background: url('../../../images/info.png') no-repeat center center;
 }
 
 .store-trigger-icon {

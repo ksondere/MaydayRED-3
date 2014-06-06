@@ -3,8 +3,10 @@
         simpleCart({
             checkout: {
                 type: "PayPal",
-                email: "ksondere@gmail.com",
-                sandbox: true
+                email: "ksondere-developer@gmail.com",
+                sandbox: true,
+                success: "http://discover-meteor-44212.usw1.nitrousbox.com/success",
+                cancel: "http://discover-meteor-44212.usw1.nitrousbox.com/cancel"
             }
         });
     }

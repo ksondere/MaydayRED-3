@@ -4,17 +4,17 @@
 
 @font-face {
     font-family: "Rocket";
-    src: url('../font_diner/ROCKS__.TTF') format('truetype');
+    src: url('../../font_diner/ROCKS__.TTF') format('truetype');
 }
 
 @font-face {
     font-family: "Sparkly";
-    src: url('../font_diner/FontdSpaTT.ttf') format('truetype');
+    src: url('../../font_diner/FontdSpaTT.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Matchbook";
-    src: url('../font_diner/MATCHBOOK.TTF') format('truetype');
+    src: url('../../font_diner/MATCHBOOK.TTF') format('truetype');
 }
 
 
