@@ -39,6 +39,8 @@
 
 .nav-link:hover, .nav-link:focus {
     text-decoration: none !important;
+    font-size: 35px;
+    background: #8D0000;
 }
 
 /* don't see these elements anymore */
