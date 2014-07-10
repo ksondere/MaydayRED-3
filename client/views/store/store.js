@@ -10,4 +10,9 @@
             }
         });
     }
+    
+    Template.store.helpers()({
+        paypalReturn: Session.get('paypal-state') 
+    })
 }());
+
