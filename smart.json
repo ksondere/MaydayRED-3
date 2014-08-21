@@ -3,6 +3,8 @@
     "bootstrap-3": {},
     "font-awesome": {},
     "paypal": {},
-    "iron-router": {}
+    "iron-router": {},
+    "zones": {},
+    "jade": {}
   }
 }
