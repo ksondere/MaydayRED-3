@@ -6,8 +6,7 @@
       "font-awesome": {},
       "paypal": {},
       "iron-router": {},
-      "zones": {},
-      "jade": {}
+      "zones": {}
     },
     "packages": {
       "bootstrap-3": {
@@ -32,13 +31,8 @@
       },
       "zones": {
         "git": "https://github.com/meteorhacks/zones.git",
-        "tag": "v0.5.4",
-        "commit": "0d7fa42a61fa9f51fd359be19f7947c289d3d119"
-      },
-      "jade": {
-        "git": "https://github.com/mquandalle/meteor-jade.git",
-        "tag": "v0.2.6",
-        "commit": "ab1edd68dccae6f5e946d9a84547043816d57864"
+        "tag": "v1.2.0",
+        "commit": "8ba5b2bdd111871d73628b662beb08de17c71120"
       },
       "npm": {
         "git": "https://github.com/arunoda/meteor-npm.git",

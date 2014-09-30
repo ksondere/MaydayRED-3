@@ -23,7 +23,7 @@
         return fields;
     }
 
-    Template.contactUs.events = {
+    Template.contact_us.events = {
         "submit": function (eventl, template) {
             event.preventDefault();
             var name = document.getElementById("name");
@@ -52,7 +52,7 @@
         }
     }
 
-    Template.contactUs.helpers({
+    Template.contact_us.helpers({
         message: function () {
             return Session.get("message") || "";
         }
